@@ -21,10 +21,12 @@ const App = () => {
   };
   return (
     <>
+      <div className={styles.container}>
       <div className={styles.calculator}>
         <Display calVal={calVal} />
         <ButtonsContainer onButtonClick={onButtonClick} />
       </div>
+    </div>
     </>
   );
 };
